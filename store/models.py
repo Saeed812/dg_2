@@ -31,8 +31,8 @@ class product(models.Model):
     
 
 class order(models.Model):
-    product = models.ForeignKey(product,on_delete=models.CASCADE)
-    customer = models.ForeignKey(customer,on_delet=models.CASCADE)
+    product = models.ForeignKey(product, on_delete=models.CASCADE)
+    customer = models.ForeignKey(customer, on_delete=models.CASCADE)
     qounity = models.IntegerField(default=1)
     addres = models.CharField(max_length=120)
     phone = models.CharField(max_length=40)

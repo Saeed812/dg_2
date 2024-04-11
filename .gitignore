@@ -19,3 +19,4 @@ tests/report/
 tests/screenshots/
 venv/
 .idea
+db.sqlite3
